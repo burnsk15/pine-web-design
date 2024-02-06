@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    background: #3A5154;
+    color: white;
+}
+ul {
+    list-style: none; /* removes the bullet points */
+    padding: 0;
+    margin: 0;
+    }
+
+.top {
+    display: flex;
+    gap: 10px; /* puts a gap between the header links */
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.links {
+    margin-left: auto; /* keeps the links to the right*/
+}
+.title {
+    display: flex;
+    background-color: #1d2625;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titleContent {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    color: white;
+    gap: 15px;
+}
+h1 {
+    color: #b7673c;
+}
+.titlePara {
+    font-size: 20px;
+}
+.titleButton {
+    border-radius: 8px;
+    border-color: #b7673c;
+    border-style: solid 3px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.titleButton:hover {
+    background-color: #b7673c;
+    color: white;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+}
+.subtitleContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 550px;
+    gap:10px;
+}
+.subtitlePara {
+    font-size: 20px;
+}
+.introduction {
+    display: flex;
+    text-align: center;
+    background-color: #929aa2;
+}
+.headshot {
+    margin-left:auto;
+    padding: 100px;
+    background-color: white;
+}
+.introContent {
+    display: flex;
+    align-items:center;
+    flex-grow: 1;
+    padding: 5px;
+}
+.introPara {
+    font-size: 20px;
+    max-width: 350px;
+    padding: 20px;
+}
